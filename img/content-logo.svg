@@ -1,0 +1,18 @@
+<svg width="430" height="140" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m165.5,60.433334" opacity="0.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+ </g>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="142" width="432" y="-49" x="-92"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="-5" x="-17" height="160" width="450"/>
+  </g>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="40" id="svg_2" y="51.433334" x="4.5" stroke-width="0" stroke="#000" fill="#007fff">這樣的天氣</text>
+  <text font-weight="bold" font-style="normal" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="40" id="svg_3" y="108.035973" x="30.999638" stroke-opacity="null" stroke-width="0" stroke="null" fill="#007fff">果然最適合吃冰品了。</text>
+  <path id="svg_4" d="m288.5,85.433334" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="null" fill="#fff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_23" y2="39.433334" x2="290" y1="39.433334" x1="215" stroke-width="3" stroke="#007fff" fill="none"/>
+ </g>
+</svg>

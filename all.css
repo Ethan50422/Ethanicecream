@@ -1,0 +1,179 @@
+.header-main-image{
+    max-width: 1200px;
+    height: 500px;
+    background-image: url('./img/冰淇淋.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.nav-link{
+    font-size: 22px;
+}
+.header-section{
+    margin-top: -90px;
+}
+.header-section-link{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: 250px;
+    z-index: 1;
+}
+.header-section-link:hover{
+    text-decoration: none;
+}
+.header-section-image{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    background-image: url('./img/photo8.JPG');
+    background-size: cover;
+    filter: blur(3px);
+    align-items: center;
+    transition: ease 0.8s;
+    overflow: hidden;
+}
+.header-section-image-second{
+    background-image: url('./img/冰淇淋_2.jpg');
+}
+.header-section-image-third{
+    background-image: url('./img/冰淇淋_3.jpg');
+}
+.active{
+    filter: blur(0);
+}
+/* .header-section-image:hover{
+    filter: blur(0);
+} */
+.header-section-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 225, 130, 0.8);
+    z-index: 1;
+}
+.header-section-cover-cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(250, 120, 70, 0.6);
+    z-index: 1;
+}
+.text-vertical{
+    font-size: 28px;
+    font-weight: 500;
+    color: darkgreen;
+    writing-mode: vertical-lr;
+    z-index: 2;
+    letter-spacing: 0.7rem;
+}
+.bg-primary-content{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(222, 250, 255);
+}
+.img-fluid{
+    margin-top: -28px;
+}
+.bg-login-primary{
+    background-color:  rgba(0, 127,255, 1);
+}
+.content-relative-position{
+    position: relative;
+}
+.content-span{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    /* width: 34px; */
+    align-items: center;
+    background-color: rgba(0, 127,255, 1);
+    font-size: 22px;
+    letter-spacing: 0.4rem;
+    text-indent: 10px;
+    color: white;
+    writing-mode: vertical-lr;
+}
+.footer-bg{
+    background-color: rgb(222, 250, 255)
+}
+.footer-font-size{
+    font-size: 18px;
+    
+}
+.footer-font-color{
+    color: rgba(0, 127,255, 1);
+}
+.btn-email-color{
+    color: black;
+    background-color: rgb(255, 230, 30);
+    border: 1px solid rgb(255, 230, 30);
+}
+.btn-row-color{
+    background-color: rgb(222, 250, 255);
+}
+/* Login.html的CSS開始 */
+.bg-login-form{
+    background-color: rgba(0, 127,255, 1);
+}
+.bg-login-link{
+    background-color: lightpink;
+}
+.login-form{
+    position: relative;
+}
+.login-form-label{
+    position: absolute;
+    top: 0;
+    left: 18px;
+    line-height: 48px;
+    z-index: 3;
+}
+.login-form-input{
+    padding-left: 60px;
+}
+.link-decoration:hover{
+    text-decoration: none;
+}
+.form-bg{
+    background-color: red;
+}
+.btn-color{
+    background-color: rgb(255, 230, 30);
+}
+/* Login.html的CSS結束 */
+/* icemenu.html的CSS開始 */
+.header-icemenu-image{
+    position: relative;
+    max-width: 1200px;
+    height: 500px;
+    background-image: url('./img/冰淇淋_4.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+.header-icemenu-logo{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+}
+/* icemenu.html的CSS結束 */
+/* cart.html的CSS開始 */
+.cart-bg-title{
+    background-color: rgb(222, 250, 255);
+    color: rgba(0, 127,255, 1);
+}
+.cart-bg-order{
+    background-color: rgba(0, 127,255, 1);
+}
+.btn-cart-style{
+    background-color:  rgb(255, 230, 30);
+    border-radius: 0;
+}
+/* cart.html的CSS結束 */
